@@ -1,0 +1,13 @@
+<Solution>
+  <Project Path="Medicare.Application/Medicare.Application.csproj" Id="937148e9-cad2-4b0f-b127-6938452842f6" />
+  <Project Path="Medicare.DAL/Medicare.DAL.csproj" Id="f82e2807-8400-4742-9863-68b7d35fcae7" />
+  <Project Path="Medicare.Domain/Medicare.Domain.csproj" Id="6fae2b59-f1f2-4fe0-8443-51f7dd4c74bb" />
+  <Folder Name="/Solution Items/">
+    <File Path="API end points.txt" />
+  </Folder>
+  <Project Path="Medicare.API/Medicare.API.csproj">
+    <BuildDependency Project="Medicare.Application/Medicare.Application.csproj" />
+    <BuildDependency Project="Medicare.DAL/Medicare.DAL.csproj" />
+    <BuildDependency Project="Medicare.Domain/Medicare.Domain.csproj" />
+  </Project>
+</Solution>
